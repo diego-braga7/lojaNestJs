@@ -13,7 +13,7 @@ private usuarioRepository = new UsuarioRepository();
  }
 
  @Get()
- async exibir() {
-    return this.usuarioRepository.buscar();
+ async listaUsuarios() {
+    return this.usuarioRepository.listar();
  }
 }

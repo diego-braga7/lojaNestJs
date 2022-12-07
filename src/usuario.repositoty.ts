@@ -6,7 +6,7 @@ async salvar(usuario){
     this.usuarios.push(usuario);
 }
 
-async buscar(){
+async listar(){
     return this.usuarios;
 }
 
